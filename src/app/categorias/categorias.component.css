@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0b0a0a;
+}
+
+.principal-container {
+    width: 90%;
+    height: 620px;
+    border: 2px solid red;
+    border-radius: 7px;
+    position: relative;
+    margin: 50px auto;
+    opacity: .9;
+    overflow: hidden;
+    padding: 10px 10px;
+    overflow: hidden;
+}
+
+.principal-container h3 {
+    position: absolute;
+    color: white;
+    font-size: 34px;
+    z-index: 20;
+    top: 80px;
+    left: 150px;
+    background-color: transparent;
+    transform: rotate(180deg);
+}
+
+.principal-container .home {
+    color: #ffffff;
+    position: absolute;
+    z-index: 30;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Quantico', sans-serif;
+    right: 50%;
+    top: 20px;
+    background-color: transparent;
+    margin-top: 30px;
+}
+
+.principal-container .categ-row1 {
+    color: #ffffff;
+}
+
+.principal-container .categ-row1 h1 {
+    display: inline;
+    position: relative;
+    top: 5em;
+    left: 6em;
+    padding: 0em 0.6em;
+    font-family: 'Quantico', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.2em;
+}
+
+.principal-container .categ-row1 h1:hover {
+    font-size: 2.3em;
+    color: #e87867;
+}
+
+.principal-container .categ-row2 {
+    color: #ffffff;
+}
+
+.principal-container .categ-row2 h1 {
+    display: inline;
+    position: relative;
+    top: 7em;
+    left: 5.8em;
+    padding: 0em 0.6em;
+    font-family: 'Quantico', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.2em;
+}
+
+.principal-container .categ-row2 h1:hover {
+    font-size: 2.3em;
+    color: #e87867;
+}
+
+.principal-container .categ-row3 {
+    color: #ffffff;
+}
+
+.principal-container .categ-row3 h1 {
+    display: inline;
+    position: relative;
+    top: 9em;
+    left: 9em;
+    padding: 0em 0.6em;
+    font-family: 'Quantico', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.2em;
+}
+
+.principal-container .categ-row3 h1:hover {
+    font-size: 2.3em;
+    color: #e87867;
+}
